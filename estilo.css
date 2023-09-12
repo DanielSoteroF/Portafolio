@@ -1,0 +1,256 @@
+body{
+    background: #EBEBEB;
+    margin: 0px ;
+    padding: 0px;
+}
+
+/*MENU*/
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 85px;
+    padding-right: 85px;
+    background-color: white;
+    font-weight: bold;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+nav h3{
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 200;
+    line-height: normal;
+    padding-top: 8px;
+    font-weight: bold;
+}
+
+ul{
+    /*padding-right: 85px;*/
+}
+
+ul li{
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.nav-link{
+    padding: 2px 0px;
+}
+
+.nav-link:hover{
+    color: red;
+    border-bottom: 1px solid red;
+}
+
+/*MAIN*/
+
+main{
+    padding-top: 100px;
+}
+
+/*TITULO*/
+.titulo{
+    display: flex;
+}
+
+.titulo section{
+    width: 45%;
+    margin-left: 80px;
+}
+
+#titulo{
+    width: 70%;
+    padding: 40px 0px;
+    margin-left: 40px;
+    font-weight: 700;
+}
+
+.likendin_github{
+    margin-left: 40px;
+}
+
+.foto_perfil img{
+    width: 337px;
+    height: 320px;
+    /*margin-right: 120px;*/
+    border: 4px solid #000;
+}
+
+/*SKILLS*/
+.skills{
+    text-align: center;
+    width: 100%;
+    margin: 50px auto;
+    padding-bottom: 10px;
+}
+
+.skills h2{
+    width: 10%;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0 auto;
+    text-decoration: underline;
+}
+
+.skills_img{
+    background-color: #D9D9D9;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    width: 401px;
+    text-align: center;
+    margin: 10px auto;
+    padding: 12px
+}
+
+/*SOBRE MI*/
+.SobreMi{
+    background: #D9D9D9;
+    width: auto;
+    margin: 50px auto;
+    padding-bottom: 10px;
+}
+
+.SobreMi h4{
+    margin: 0 auto;
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    width: 22%;
+    padding-top: 50px;
+    text-decoration: underline;
+}
+
+#card_sobremi{
+    width: 802px;
+    height: 389px;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin: 50px auto;
+}
+
+#card_sobremi h5{
+    text-align: center;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    margin: 20px auto;
+    padding: 20px 0px;
+}
+
+#card_sobremi p{
+    text-align: center;
+    font-family: Arial;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0px auto;
+}
+
+.SobreMi img{
+    border-radius: 700px;
+    border: 4px solid #000;
+    display: flex;
+
+}
+
+#sobremi{
+    align-items: center;
+}
+
+/*MIS PROYECTOS*/
+.MisProyectos{
+    background: #D9D9D9;
+    width: auto;
+    margin: 10px auto;
+    padding-bottom: 10px;
+}
+
+.MisProyectos h4{
+    margin: 0 auto;
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    width: 22%;
+    padding-top: 50px;
+    text-decoration: underline;
+}
+
+.MisProyectos h5{
+    font-weight: 700;
+    padding: 20px 0;
+}
+
+#card_misproyectos{
+    height: 300px;
+    border-radius: 20px;
+    background: #FFF;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    margin: 50px auto;
+    padding: 10px ;
+    text-align: center;
+}
+
+#proyecto1{
+    margin: 0px auto ;
+    border-radius: 20px;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    
+}
+
+/*CONTACTO*/
+.Contacto{
+    background: #D9D9D9;
+    width: auto;
+    margin: 10px auto;
+    padding-bottom: 10px;
+}
+
+.Contacto h4{
+    margin: 0 auto;
+    text-align: center;
+    font-style: normal;
+    font-weight: 700;
+    width: 22%;
+    padding-top: 50px;
+    text-decoration: underline;
+}
+
+.Contacto p{
+    margin: 0 auto;
+    text-align: center;
+    font-style: normal;
+    padding-top: 20px;
+}
+
+.item_contac{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 60%;
+    margin: 50px auto;
+}
+
+.item_contac p{
+    padding: 2px 0px;
+}
+
+/*FOOTER*/
+footer{
+    background-color: rgba(238, 20, 20, 0.95);
+    color: #FFF;
+    text-align: center;
+    height: 102px;
+}
+
+footer p{
+    padding-top: 40px;
+    font-weight: 700;
+}
